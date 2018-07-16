@@ -1,0 +1,11 @@
+x=abs(100)
+y=abs(-20)
+print(x,y)
+print('max(1,2,3)=',max(1,2,3))
+print('sum([1,2,3])=',sum([1,2,3]))
+
+n1=255
+n2=1000
+L1=[n1,n2]
+for x in L1:
+  print('%d的十六进制为：%s'%(x,str(hex(x))))
